@@ -1,0 +1,276 @@
+.h1-container {
+  display: flex;
+  justify-content: left;
+  width: 355px;
+}
+
+.h1-form {
+  color: hsl(222, 11%, 30%);
+  font-family: Epilogue , sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+form {
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner-container {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.img-banner {
+  height: 80px;
+  width: 355px;
+}
+
+.container-input {
+  height: 65px;
+  margin-bottom: 24px;
+}
+
+input {
+  background-color: white;
+  border: 1px solid hsl(216, 20%, 20%);
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 37px;
+  padding-left: 8px;
+}
+
+input:focus {
+  outline-color: #0f7ef1;
+}
+
+.input-name {
+  border: none;
+  border-bottom: 1px solid hsl(217, 20%, 30%);
+  margin-bottom: 4px;
+  width: 355px;
+}
+
+.container-description {
+  height: 100px;
+  margin-bottom: 16px;
+}
+
+.textarea-description {
+  border: none;
+  border-bottom: 1px solid hsl(217, 20%, 30%);
+  height: 80px;
+  margin-bottom: 4px;
+  padding-left: 8px;
+  padding-top: 8px;
+  width: 355px;
+}
+
+.textarea-description:focus {
+  outline-color: #0f7ef1;
+}
+
+label {
+  align-items: center;
+  color: hsl(217, 20%, 30%);
+  display: flex;
+  font-family: Verdana , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 150%;
+}
+
+.label-name {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.label-textarea {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.attr-container {
+  display: flex;
+}
+
+.label-attr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.attr {
+  height: 37px;
+  margin: 8px;
+  width: 80px;
+}
+
+.label-image {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4px;
+  margin-top: 24px;
+}
+
+.p-img {
+  margin-left: 8px;
+}
+
+.img-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.input-image {
+  height: 37px;
+  margin-right: 8px;
+  padding-left: 8px;
+  width: 255px;
+}
+
+.pokeball {
+  width: 24px;
+}
+
+.label-rarity {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.select-rarity {
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid hsl(217, 20%, 30%);
+  height: 40px;
+  width: 355px;
+}
+
+.select-rarity:focus {
+  outline-color: #0f7ef1;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-trunfo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 230px;
+  margin-top: 16px;
+}
+
+.checkbox-trunfo {
+  height: 16px;
+  margin-right: 8px;
+  width: 16px;
+}
+
+.haveTrunfo {
+  color: hsl(217, 20%, 30%);
+  font-family: Verdana , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin-top: 16px;
+}
+
+.btn-salvar {
+  background-color: hsl(195, 100%, 39%);
+  border: none;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 80px;
+  margin-top: 16px;
+  padding: 8px 32px;
+}
+
+.msg-error {
+  align-items: center;
+  color: red;
+  display: flex;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.msg-error-img {
+  align-items: center;
+  color: red;
+  display: flex;
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 37px;
+}
+
+.icon-error {
+  color: red;
+  font-size: 16px;
+  margin-right: 4px;
+  text-align: center;
+}
+
+.icon-validate {
+  color: green;
+  font-size: 16px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+span {
+  align-items: center;
+  color: hsl(217, 20%, 30%);
+  display: flex;
+  font-family: Verdana , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 150%;
+}
+
+.icon-validate-attr {
+  color: green;
+  font-size: 16px;
+  text-align: center;
+}
+
+.icon-error-attr {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+}
+
+.sword {
+  font-size: 30px;
+}
+
+.poke-cel-icon {
+  width: 37px;
+}

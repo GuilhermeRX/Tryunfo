@@ -1,0 +1,148 @@
+.card {
+  align-items: center;
+  background-color: hsl(195, 100%, 39%);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  height: 549px;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+  margin-left: 8px;
+  margin-right: 24px;
+  overflow: hidden;
+  width: 368px;
+}
+
+.poke-name {
+  align-items: center;
+  background-color: hsl(210, 11%, 15%);
+  box-shadow: 6px 8px 100px hsl(210, 11%, 15%);
+  color: white;
+  display: flex;
+  height: 50px;
+  margin-top: 40px;
+  padding-left: 60px;
+  transform: rotate(-8deg);
+  width: 110%;
+}
+
+.div-img {
+  height: 250px;
+  margin-top: -20px;
+  width: 250px;
+  z-index: 10;
+}
+
+.img-poke {
+  width: 250px;
+}
+
+.div-description {
+  align-items: center;
+  background-color: hsl(210, 11%, 15%);
+  box-shadow: 6px 8px 100px hsl(210, 11%, 15%);
+  color: white;
+  height: 50px;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 4px;
+  transform: rotate(-8deg);
+  width: 110%;
+  z-index: 100;
+}
+
+.div-atributes {
+  background-color: honeydew;
+  padding-left: 10px;
+  transform: rotate(-8deg);
+  width: 110%;
+  z-index: 200;
+}
+
+.atributes {
+  display: flex;
+}
+
+.attr-icon {
+  align-items: center;
+  background-color: rgb(223, 227, 231);
+  border-bottom: 0.5px solid #495057;
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  width: 20%;
+}
+
+.textatr {
+  align-items: center;
+  background-color: hsl(210, 14%, 83%);
+  border-bottom: 0.5px solid #495057;
+  border-left: 0.5px solid #495057;
+  border-right: 0.5px solid #495057;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.att {
+  align-items: center;
+  background-color: hsl(210, 11%, 71%);
+  border-bottom: 0.5px solid #495057;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.rare-preview {
+  text-transform: uppercase;
+}
+
+.last-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.tryunfo-contain {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 8px;
+  margin-top: 8px;
+  width: 60%;
+}
+
+.div-trunfo {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+.trunfo-img {
+  height: 35px;
+  width: 40px;
+}
+
+.p-trunfo {
+  text-transform: uppercase;
+}
+
+.banner-contain {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-right: 8px;
+  margin-top: 14px;
+  width: 40%;
+}
+
+.icon-ban {
+  height: 35px;
+}
